@@ -1,0 +1,20 @@
+= Feature Showcase (Sandbox)
+
+Showcases Java features of the following JDKs (long-term support JDKs marked boldly):
+
+* 17 (*LTS*)
+
+* 16
+** Records
+
+---
+
+
+== Usage
+
+It's recommended to install link:https://sdkman.io/[SDK Man] to easily switch between different JDK versions.
+
+. Install newest Correto-JDK via: `sdk install java 19-amzn`  (or use an alternate means of your choice)
+. Use newest Correto-JDK via: `sdk use java 19-amzn`  (or use an alternate means of your choice)
+. `mvn test`
+. Check code for details
